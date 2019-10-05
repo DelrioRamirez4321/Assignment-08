@@ -1,6 +1,6 @@
 body {
 	background-color: #222222;
-	color: #666666;
+	color: white;
 	font-size: 18px;
 	padding: 1em 8em;
 }
@@ -20,9 +20,8 @@ a:link, a:visited, a:active {
 	color: #ffff00;
 }
 
-a:hover {
-	background-color: #ffff00;
-	color: #ffaa50;
+a:hover, a:focus {
+	background-color: purple;
 }
 
 table {
@@ -33,7 +32,7 @@ table {
 table td {
 	background-color: #dd0000;
 	border: 1px solid #000000;
-	color: #ffaa50;
+	color: yellow;
 	margin: 0;
 	padding: .5em;
 }
@@ -56,4 +55,8 @@ table tr {
 	color: #000000;
 	margin: 1.5em 0;
 	padding: 1em;
+}
+
+p {
+	text-indent: 5%;
 }
